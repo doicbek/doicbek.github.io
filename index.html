@@ -11,7 +11,6 @@
 	<link href="resources/css/bootstrap.css" rel="stylesheet">
 	<link href="resources/css/font-awesome.min.css" rel="stylesheet">
 	<link href="resources/css/main.css" rel="stylesheet">
-	<link href="github-widget/github-widget.css" rel="stylesheet" type="text/css" />
 
 	<link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 	
@@ -42,14 +41,39 @@
 					<img src="resources/img/avatar_bg.jpg" class="background"/>
 					<img src="https://avatars3.githubusercontent.com/u/8071507?v=3&s=460" class="profile"/> 
 					<figcaption> 
-					<h3>Dominic Beck<span>Graduate Student in Physics</span></h3> 
+					<h3 class="persinfo">Dominic Beck<span>Graduate Student in Physics</span></h3> 
+					<p>
+						<a class="email" href="#" data-toggle="popover" data-placement="bottom" html=true title="E-Mail Address" data-content="dmncbck<i class='fa fa-at' aria-hidden='true'></i>gmail.com">
+							<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+							</span> 
+						</a>
+						<a class="skype" href="#" data-toggle="popover" data-placement="bottom" html=true title="Skype Name" data-content="<a href='skype:doicbek?chat'>doicbek</a>">
+							<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-skype fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a class="github" href="https://github.com/doicbek" title="Github">
+							<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a class="linkedin" href="https://www.linkedin.com/in/dominicbeck" title="LinkedIn">
+							<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>	
+					</p>
 					</figcaption>
 					</div>
-					<ul class="nav nav-tabs nav-stacked" id="myTab">
+										<ul class="nav nav-tabs nav-stacked" id="myTab">
 						<li class="active"><a href="#about">About</a></li>
 						<li><a href="#profile">CV</a></li>
 						<li><a href="#research">Research</a></li>
-						<li><a href="#contact">Contact</a></li>
 					</ul>    			
 				</div><!-- col-md-4 -->
 
@@ -65,9 +89,27 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet felis sem, sit amet venenatis nibh efficitur ac. Sed auctor, augue id convallis fringilla, mi diam consequat odio, sit amet lobortis tellus ligula a tortor. Ut ornare felis sed ipsum gravida, a tincidunt dui eleifend. Fusce venenatis nisi a vestibulum suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 							</p> 
-							<p>
-								Aenean consectetur dui nec nunc mollis bibendum. Nam varius nulla eu lectus ultrices, vel pretium purus sodales. Suspendisse id mauris sit amet velit pellentesque porttitor. Pellentesque turpis lectus, tincidunt sed metus ac, viverra auctor felis. In sapien nulla, vehicula sit amet convallis eu, imperdiet ac lectus. Proin pretium finibus elit, ac venenatis sapien finibus ut.								
-							</p>
+								
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="office">
+										<h4><i class="fa fa-building" aria-hidden="true"></i> Office</h3>               
+										<address>
+										312 B<br>
+										Laboratoire APC<br>
+										Bâtiment Condorcet<br/>
+										10, rue Alice Domon et Léonie Duquet<br>
+										75013 Paris<br>
+										France
+										</address>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="iframe-container">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d49975.19459795385!2d2.359426528013706!3d48.82964608039276!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xded47e7954978620!2sAPC!5e0!3m2!1sen!2sde!4v1487870045654" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
 						</div>
 
 
@@ -131,7 +173,6 @@
 								</div>
 								
 								<div class="collapse col-xs-8 col-lg-offset-4" id="collapseSoftware">
-									<div class="github-widget" data-user="doicbek" data-options='{"limit":3}'></div>
 									<div class="list-group">
 										<a href="https://github.com/doicbek/lenspy" class="list-group-item"><span class="badge">new</span>
 											<h4 class="list-group-item-heading">lenspy</h4>
@@ -141,65 +182,6 @@
 								</div>
 							</div>
 
-						</div>
-
-						
-						<!-- Contact Tab -->
-						<div class="tab-pane" id="contact">
-							<h3>Contact Information</h3>
-							<hr>
-							<p>
-								<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-								</span> 
-								dmncbck<i class="fa fa-at" aria-hidden="true"></i>gmail.com<br/>
-							</p>
-
-							<p>
-								<a class="skype" href="#" data-toggle="popover" data-placement="bottom" html=true title="Skype Name" data-content="<a href='skype:doicbek?chat'>doicbek</a>">
-									<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-skype fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-
-								<a class="linkedin" href="https://www.linkedin.com/in/dominicbeck" title="LinkedIn">
-									<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-								
-								<a class="github" href="https://github.com/doicbek" title="Github">
-									<span class="fa-stack fa-lg">
-											<i class="fa fa-circle fa-stack-2x"></i>
-											<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</p>
-
-							<div class="panel panel-default">
-							<div class="panel-body">Impressum</div>
-							<div class="panel-footer">
-							<h4>Contact address</h4>
-								<address>
-								Dominic Beck<br>
-								Laboratoire APC<br>
-								10, rue Alice Domon et Léonie Duquet<br>
-								75013 Paris<br>
-								France
-								</address>
-							<h4>Haftungsausschluss</h4>
-								<p>Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und  Vollständigkeit der Informationen.</p>
-								<p>Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw.  Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der  Verbindung oder durch technische Störungen entstanden sind, werden  ausgeschlossen.</p>
-								<p>Alle  Angebote sind unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern,  zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig  einzustellen.</p>
-							<h4>Haftung für Links</h4>
-								<p>Verweise und Links auf Webseiten Dritter liegen ausserhalb meines Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten  abgelehnt.  Der Zugriff und die Nutzung solcher Webseiten erfolgen  auf eigene Gefahr des Nutzers oder der Nutzerin. </p>
-							<h4>Urheberrechte</h4>
-								<p>Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich <strong></strong> oder den speziell genannten  Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen.</p>
-							</div>
-							</div>
 						</div>
 						
 						
