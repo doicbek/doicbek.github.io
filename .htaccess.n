@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /nas/beckdo/.htpasswd
+require valid-user
