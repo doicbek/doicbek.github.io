@@ -18,7 +18,6 @@ html {
  
 body {
   	background-color: #2289bf;
-    font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555555;
@@ -37,10 +36,10 @@ body {
 .profile-header { overflow: hidden; height: 300px; color: #ffffff; text-align: center; line-height: 1.4em; background-color: #ffffff; border-bottom: 2px solid #dddddd;} 
 .profile-header * { -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.25s ease; transition: all 0.25s ease; } 
 .profile-header .background { width: 100%; vertical-align: top; opacity: 0.5; min-height: 300px; -webkit-transition: all 2s ease; transition: all 2s ease; } 
-.profile-header figcaption { width: 100%; padding: 15px 25px; position: absolute; left: 0; top: 200px; text-shadow: -.5px 0 #ffffff, 0 .5px #ffffff, .5px 0 #ffffff, 0 -.5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.5); } 
-.profile-header .profile { border-radius: 50%; position: absolute; top: 100px; left: 50%; max-width: 100px; max-height: 100px; opacity: 1; box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5); border: 2px solid rgba(255, 255, 255, 0.5); -webkit-transform: translate(-50%, 0%); transform: translate(-50%, 0%); } 
+.profile-header figcaption { width: 100%; padding: 15px 25px; position: absolute; left: 0; top: 200px; text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.5); } 
+.profile-header .profile { border-radius: 50%; position: absolute; top: 100px; left: 50%; max-width: 100px; max-height: 100px; opacity: 1; box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5); border: 4px solid rgba(255, 255, 255, 0.5); -webkit-transform: translate(-50%, 0%); transform: translate(-50%, 0%); } 
 .profile-header h3 { margin: 0 0 5px; font-weight: 400; } 
-.profile-header h3 span { display: block; font-size: 0.6em; color: #bf5822;} 
+.profile-header h3 span { display: block; font-size: 0.6em; color: #555555;} 
 .profile-header:hover .background, .snip1344.hover .background { -webkit-transform: scale(1.3); transform: scale(1.3); } 
 
 h1, h2, h3, h4, h5, h6 {
@@ -172,7 +171,7 @@ i {
 }
 
 .sm {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 a h6{
