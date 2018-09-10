@@ -195,7 +195,7 @@ i {
 }
 
 .sm {
-	font-size: 9pt;
+	font-size: 10pt;
 }
 
 a h6{
@@ -218,6 +218,20 @@ grey {
 	background-color: #1A2930;
 	color: #F7CE3E;
 	font-weight: 700;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	font-size: 12pt;
+}
+
+blue {
+	background-color: #F7CE3E;
+	color: #1A2930;
+	font-weight: 700;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	font-size: 12pt;
 }
 
 .popover-title {
@@ -263,6 +277,13 @@ ul {
 	font-size: 12px;
 	padding-left: 1em;
 	padding-top: .1em;
+	height: 100%;
+}
+
+.cv-cont {
+	border-bottom: 1px solid #C5C1C0;
+	margin-bottom: 1em;
+	margin-left: 1em;
 	height: 100%;
 }
 
