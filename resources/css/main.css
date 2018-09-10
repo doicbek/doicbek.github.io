@@ -86,8 +86,8 @@ a {
 
 a:hover,
 a:focus {
-	color: #1A2930;
-    background-color: #F7CE3E;
+	/* color: #1A2930; */
+    /* background-color: #F7CE3E; */
     text-decoration: none;
     outline: 0;
 }
@@ -217,7 +217,6 @@ a h6:hover {
 grey {
 	background-color: #1A2930;
 	color: #F7CE3E;
-	font-weight: 700;
 	padding-left: 5px;
 	padding-right: 5px;
 	margin-right: 5px;
@@ -227,7 +226,6 @@ grey {
 blue {
 	background-color: #F7CE3E;
 	color: #1A2930;
-	font-weight: 700;
 	padding-left: 5px;
 	padding-right: 5px;
 	margin-right: 5px;
