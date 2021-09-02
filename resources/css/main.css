@@ -82,10 +82,12 @@ a {
 	transition: all ease 0.8s;
 }
 
-.email {color: #ea4335;}
+.email {color: #4408a3;}
 .skype {color: #00aff0;}
 .linkedin {color: #0e76a8;}
 .github {color: #171515; }
+.stanford {color: #8c1515; }
+.orcid {color: #a6ce39; }
 
 a:hover,
 a:focus {
