@@ -92,12 +92,13 @@ strong {
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 22px;
+  color: #156082;
 }
 
 .papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -105,8 +106,9 @@ h2 {
 .name {
   padding-top: 20px;
   margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
+  color: #156082;
 }
 
 .one {
